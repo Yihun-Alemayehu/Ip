@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    background-color: aquamarine;
+    color: white;
+
+}
+
+
+h1 {
+    margin: 0;
+    background-color: rgb(233,119,119);
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 200%;
+}
+.rgbSpan {
+    font-size: 200%;
+}
+
+.nav {
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    text-align: center;    
+    padding: 0;
+}
+
+.status {
+    display: inline-block;
+    width: 20%;
+    font-weight: 900;
+    color: rgb(233, 119, 119);   
+}
+
+button {
+    border: none;
+    background-color: white;
+    text-transform: uppercase;
+    color: rgb(233, 119, 119);
+    height: 100%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    
+}
+
+.colorBox {
+    width: 500px;
+    margin: 0 auto;
+    
+}
+.box {
+    border-radius: 20px;
+    width: 30%;
+    background-color: red;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    float: left;
+}
