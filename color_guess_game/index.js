@@ -1,4 +1,5 @@
-var boxes = document.querySelectorAll(".box");
+var colorBox = document.querySelectorAll('.colorBox');
+var boxes = document.querySelectorAll('.box');
 var s = document.querySelector('.rgbSpan');
 var colors = generateRandomColor(6);
 var pickedColor = colors[Math.floor(math.random() * 6)];
@@ -106,3 +107,4 @@ function randomColor(){
 
 easyButton.style.backgroundColor = '#f88989';
 easyButton.style.color = 'white';
+colorBox.style.backgroundColor = "white";
