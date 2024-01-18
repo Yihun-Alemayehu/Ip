@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ask Question</title>
+</head>
+<body align = "center">
+
+    <!-- Header Section -->
+    <header >
+        <table align="center" cellpadding = "30">
+            <tr>
+                <th colspan="4" rowspan=""><a href="/Home.html"><img width="100" src="/Images/mylogo2.png" alt="logo"></a></td>
+                <th colspan="100"><a href="/Home.html">Home</a></td>
+                <th><a href="#">How it works</a></td>
+                <th><a href="Login.html"><button id="isLogged" class="btn_header">Log Out</button></a> </td>
+            </tr>
+        </table>
+        <!--<div >
+            <a href="/Home.html"><img width="100" src="/Images/mylogo2.png" alt="logo"></a>
+            <div class="innerContainer2 rightSide">
+                <a href="/Home.html">Home</a>
+                <a href="#">How it works</a>
+                <a href="Login.html"><button id="isLogged" class="btn_header">Log Out</button></a> 
+            </div>
+        </div>-->
+        <!-- <button class="ic">☰</button> -->
+    </header>
+
+    <!-- Ask Question Section -->
+
+    <div>
+        <div>
+          <h3>Steps to write a good question</h3>
+          <ul>
+            <li>Summerize your problem in a one-line title.</li>
+            <li>Describe your problem in more detail.</li>
+            <li>Describe what you tried and what you expected to happen.</li>
+            <li>Review your question and post it to the site.</li>
+          </ul>
+        </div>
+        <form>
+          <h3>Ask a public question</h3>
+            <p><a href="/Home.html">Go to Question page</a></p>
+          <p>
+            <input
+            type="text"
+            name="question"
+            Placeholder="Title"
+          />
+          </p>
+
+          <p>
+            <textarea
+            placeholder="Question Description..."
+            name="questionDescription"
+          ></textarea>
+          </p>
+
+          
+
+          <button class="question_post_btn" type="">
+            Post Your Question
+          </button>
+        </form>
+     </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div>
+            <div>
+            <img width="100" src="/Images/mylogo2.png" alt="logo">
+            </div>
+            <div class="Icon">
+            <a class="social__icons" href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a class="social__icons" href="#">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a class="social__icons" href="#">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+            </div>
+        </div>
+        <div class="row">
+        <h3 class="title"> Useful Link</h3>
+            <div class="useful-Link ">
+            <a href="#">How it works</a>
+
+            <a href="#">Terms of Service</a>
+
+            <a href="#">Privacy policy</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="Contact-Info">
+            <h3 class="title"> Contact Info</h3>
+            <p>Global Solution Hub</p>
+            <p>support@gsl.com</p>
+            <p>+251-961304325</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS Section 
+    <script>
+    function checkUser(){
+        if(!localStorage.getItem('token')){
+        window.location.href = '/Login.html';
+        }
+    }
+    checkUser();
+    </script> 
+  -->
+</body>
+</html>

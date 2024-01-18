@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+</head>
+<body>
+    <h1>Test 1</h1><hr/>
+    <ul type = "circle">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ul>
+    <P><abbr title = "Yihun and Zerihun">&lt;YIZE&gt;</abbr></P>
+    <video controls width="40%" height="20%">
+        <source src="movie.mp4"></source type = "video/mp4">
+    </video>
+
+    <table border="1" >
+
+        <tr>
+            <th colspan="4">Title</th>
+            <th>row 2</th>
+            <th>row 3</th>
+        </tr>
+        <tr>
+            <td rowspan="3">Title</td>
+            <td>row 2</td>
+            <td>row 3</td>
+        </tr>
+        <tr>
+            <td>Title</td>
+            <td>row 2</td>
+            <td>row 3</td>
+        </tr>
+
+    </table>
+
+    <form>
+        <fieldset>
+            <legend>Sign Up</legend>
+            <label for = "fname">First Name </label>
+            <input type="text" id = "fname" name = "fname" placeholder="First name" disabled><br />
+            <label for = "fname">password </label>
+            <input type="password" id = "lname" name = "lname"><br />
+            <label for = "fname">radio </label>
+            <input type="radio" id = "fname" name = "fname"><br />
+            <label for = "fname">checkbox </label>
+            <input type="checkbox" id = "lname" name = "lname"><br />
+            <label for = "fname">file </label>
+            <input type="file" id = "fname" name = "fname"><br />
+            <label for = "fname"></label>
+            <input type="submit" id = "lname" name = "lname"><br />
+            <label for = "fname">date</label>
+            <input type="date" id = "fname" name = "fname"><br />
+            <label for = "fname">number </label>
+            <input type="number" id = "lname" name = "lname"><br />
+            <label for = "fname">search </label>
+            <input type="search" id = "fname" name = "fname"><br />
+            <label for = "fname">email </label>
+            <input type="email" id = "lname" name = "lname"><br />
+            <label for = "fname">file </label>
+            <input type="text" id = "fname" name = "fname" value="nothing"><br />
+            <label for = "fname"></label>
+            <input type="submit" id = "lname" name = "lname"><br />
+            <label for = "info">select multiple</label>
+            <select name = "info" size="4" multiple>
+                <option value="html">HTML</option>
+                <option value="css">Css</option>
+                <option value="js">JS</option>
+                <option value="php">PHP</option>
+            </select><br />
+            <label for = "info1">select</label>
+            <select name = "info1">
+                <option value="html">HTML</option>
+                <option value="css">Css</option>
+                <option value="js" selected>JS</option>
+                <option value="php">PHP</option>
+            </select><br />
+            <input type = "reset" >
+
+        </fieldset>
+
+    </form>
+    <form oninput="result.value= parseInt(a.value)+ parseInt(b.value)">
+        <input type = "range" name="b" value="50"/> +
+        <input type = "number" name = "a" value ="10"/>=
+        <output name="result" >60 </output>
+
+    </form>
+</body>
+</html>

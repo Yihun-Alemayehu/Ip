@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <script src="https://kit.fontawesome.com/c7c3ae3ac3.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="Login.css"> -->
+    <script defer type="module" src="auth.js"></script>
+</head>
+<body>
+  <!-- Header Section -->
+  <header >
+    <table >
+      <tr>
+        <td align="left" style="width: 3%;">
+          <img width="100" src="/Images/mylogo2.png" alt="logo">
+        </td>
+        <td align="right" style="width: 75%;"> 
+          <a href="Home.html">Home</a>
+          <a href="#">How it works</a> 
+          <a href="/SignUp.html"><button class="btn_header">Sign Up</button></a>
+        </td>           
+      </tr>
+      </table>
+    <!-- <button class="ic">☰</button> -->
+  </header>
+  <!-- SignUp Section -->
+  <table>
+    <tr>
+      <td align="left" style="width: 50%;">
+          <p class="p11">Join the network</p>
+          <p class="p22 lorem">
+          Don't you have an account?
+          <a class="a11" href="/SignUp.html">Create new account</a>
+          </p>
+          <div class="auth">
+                <form class="form">
+                    <input
+                        class="in11"
+                        id="email"
+                        name="email"
+                        type="email"
+                        placeholder="Email"
+                    />
+                    <input
+                        class="in11"
+                        id="password"
+                        name="password"
+                        type="password"
+                        placeholder="Password"
+                    />
+                    <!-- <i class="fa-regular fa-eye-slash"></i> -->
+                    <span class="showHide">
+                        <i class="fa-regular fa-eye-slash"></i>
+                    </span>
+                    <button class="btnSign">Login</button>
+                </form>
+            <a class="a33" href="/SignUp.html"> Create an account?</a>
+      </td>
+      <td align="left" >
+          <p class="about">About</p>
+          <h1 >Global Solution Hub</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem
+            voluptate officiis beatae nobis pariatur omnis facere accusamus
+            laboriosam hic, adipisci vero reiciendis, recusandae sit ad, eum
+            quisquam! Molestias, ut commodi!
+          </p>
+          <button class="btnHow">HOW IT WORKS</button>
+      </td>
+    </tr>
+  </table>
+
+  
+  <!-- Footer Section -->
+  <footer class="footer-wrapper">
+    <div className="logo-icon-wrapper">
+      <div class="logo">
+        <img width="100" src="/Images/mylogo2.png" alt="">
+      </div>
+      <div class="Icon">
+        <a class="social__icons" href="#">
+            <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a class="social__icons" href="#">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a class="social__icons" href="#">
+            <i class="fa-brands fa-youtube"></i>
+        </a>
+      </div>
+    </div>
+    <div className="row">
+    <h3 class="title"> Useful Link</h3>
+      <div class="useful-Link ">
+        <a href="#">How it works</a>
+
+        <a href="#">Terms of Service</a>
+
+        <a href="#">Privacy policy</a>
+      </div>
+    </div>
+    <div className="row">
+      <div class="Contact-Info">
+        <h3 class="title"> Contact Info</h3>
+        <p>Global Solution Hub</p>
+        <p>support@gsl.com</p>
+        <p>+251-961304325</p>
+      </div>
+    </div>
+  </footer>  
+</body>
+</html>

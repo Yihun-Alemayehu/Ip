@@ -1,0 +1,25 @@
+html{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.nav a{
+    margin-left: 20px;
+}
+.aside {    
+    width: 30%;
+    float: left;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+
